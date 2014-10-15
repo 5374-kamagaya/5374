@@ -118,3 +118,8 @@ a,a:hover{
 	text-align: center;
 	font-size: 20px;
 }
+
+.cfk > p > a, .cfk li > a{
+	 color: #FF0000;
+	 text-decoration: underline;
+}
