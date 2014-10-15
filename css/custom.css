@@ -127,3 +127,7 @@ a,a:hover{
 	color: #FF0000;
 	text-decoration: underline;
 }
+.twitter-share-button {
+	margin:5px auto;
+}
+}
