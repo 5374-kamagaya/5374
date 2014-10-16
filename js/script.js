@@ -433,11 +433,13 @@ $(function() {
     //トラッシュの近い順にソートします。
     areaModel.sortTrash();
     var accordion_height = $(window).height() / descriptions.length;
+    /*
     if(descriptions.length>4){
       accordion_height = accordion_height / 4.1;
       if (accordion_height>140) {accordion_height = accordion_height / descriptions.length;};
       if (accordion_height<130) {accordion_height=130;};
     }
+    */
     var styleHTML = "";
     var accordionHTML = "";
     //アコーディオンの分類から対応の計算を行います。
