@@ -119,6 +119,7 @@ a,a:hover{
 	font-size: 20px;
 }
 
+/* custom */
 .cfk > p > a, .cfk li > a{
 	color: #FF0000;
 	text-decoration: underline;
@@ -127,9 +128,7 @@ a,a:hover{
 	color: #FF0000;
 	text-decoration: underline;
 }
-/*
 #tsb {
-	margin:5px auto 0;
+	margin:10px auto 0;
 	text-align:center;
 }
-*/
