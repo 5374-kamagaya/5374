@@ -129,6 +129,9 @@ a,a:hover{
 	text-decoration: underline;
 }
 #tsb {
-	margin:10px auto 0;
+	margin:10px auto;
+	padding:5px;
 	text-align:center;
+	border:1px solid #999999;
+	width:235px;
 }
