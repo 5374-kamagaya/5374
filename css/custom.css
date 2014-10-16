@@ -128,10 +128,16 @@ a,a:hover{
 	color: #FF0000;
 	text-decoration: underline;
 }
-#tsb {
+#shareBtn {
 	margin:10px auto;
 	padding:5px;
 	text-align:center;
-	border:1px solid #999999;
+	border:1px dashed #cccccc;
 	width:235px;
+}
+#shareBtn p{
+	margin:0;
+}
+#shareBtn iframe{
+	margin:0 0 -6px;
 }
