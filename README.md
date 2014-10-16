@@ -34,5 +34,5 @@
 
 ## Contributers in Kamagaya
 - Code for Kamagaya
-- 真魚　長明(Nagaaki Mao), deepdemocracy.center (Coordinator)
-- 青柳　涼(Ryo Aoyagi), aoiro-web.com (Developer)
+- 真魚　長明(Nagaaki Mao), [deepdemocracy.center](http://deepdemocracy.center/) (Coordinator)
+- 青柳　涼(Ryo Aoyagi), [aoiro-web.com](http://aoiro-web.com/) (Developer)
