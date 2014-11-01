@@ -251,7 +251,7 @@ var CenterModel = function(row) {
   this.endDate = getDay(row, 2);
   */
   for (var i in center) {
-	 this.dateArray[] = getDay(row, i);
+	 this.dateArray = getDay(row, i);
   };
 }
 /**
