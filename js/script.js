@@ -485,7 +485,7 @@ $(function() {
 
             target_tag += '<li style="list-style:none;">' + target.name + "</li>";
             target_tag += '<p class="note">' + target.notice + "</p>";
-            target_tag += '<li style="list-style:none;font-size:75%;text-align:right;"><a href="#" style="padding-bottom:3px;">▲上部に移動</a></li>';
+            target_tag += '<li style="list-style:none;font-size:75%;text-align:right;"><a href="#" style="padding-bottom:5px;">▲上部に移動</a></li>';
           }
 
           target_tag += '</ul>';
