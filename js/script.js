@@ -31,6 +31,7 @@ var AreaModel = function() {
     for (var i in c){
       if (c[i]== currentDate.toLocaleDateString()){
         return true;
+      }
     }
     return false;
   }
