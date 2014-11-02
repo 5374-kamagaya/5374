@@ -20,11 +20,17 @@ var AreaModel = function() {
     休止期間（主に年末年始）かどうかを判定します。
   */
   this.isBlankDay = function(currentDate) {
+    /*
     var period = [this.center.startDate, this.center.endDate];
-
     if (period[0].getTime() <= currentDate.getTime() &&
       currentDate.getTime() <= period[1].getTime()) {
       return true;
+    }
+    */
+    var c = this.center.blankDay.split(":");
+    for (var i in c){
+      if (c[i]== currentDate.toLocaleDateString()){
+        return true;
     }
     return false;
   }
@@ -246,8 +252,15 @@ var CenterModel = function(row) {
   }
 
   this.name = row[0];
+  row.shift();
+  this.blankDay = "";
+  for (var i in row){
+    this.blankDay += getDay(row, i).toLocaleDateString() + ":";
+  }
+  /*
   this.startDate = getDay(row, 1);
   this.endDate = getDay(row, 2);
+  */
 }
 /**
 * ゴミのカテゴリを管理するクラスです。
