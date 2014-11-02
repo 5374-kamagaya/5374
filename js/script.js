@@ -487,7 +487,7 @@ $(function() {
             target_tag += '<p class="note">' + target.notice + "</p>";
           }
 
-          target_tag += "</ul>";
+          target_tag += '<li style="list-style:none;text-align:right;">トップに移動</li></ul>';
 
           var dateLabel = trash.getDateLabel();
           //あと何日かを計算する処理です。
