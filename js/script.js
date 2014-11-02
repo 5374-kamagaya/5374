@@ -475,7 +475,7 @@ $(function() {
             if (furigana != target.furigana) {
               if (furigana != "") {
                 target_tag += "</ul>";
-                target_tag += '<p style="font-size:75%;text-align:right;"><a href="#" style="padding-bottom:5px;">▲上部に移動</a></p>';
+                target_tag += '<p style="font-size:75%;text-align:right;"><a href="#" style="text-decoration:underline;padding-bottom:3px;">▲上部に移動</a></p>';
               }
 
               furigana = target.furigana;
@@ -489,6 +489,7 @@ $(function() {
           }
 
           target_tag += '</ul>';
+          target_tag += '<p style="font-size:75%;text-align:right;"><a href="#" style="text-decoration:underline;padding-bottom:3px;">▲上部に移動</a></p>';
 
           var dateLabel = trash.getDateLabel();
           //あと何日かを計算する処理です。
