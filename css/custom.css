@@ -81,7 +81,7 @@ a.accordion-toggle-top:hover{
        position: absolute;
        padding-left: 10px;
 }
-a,a:hover{	
+a,a:hover,a:visited{	
 	color: white;
 	text-decoration: none;
 }
