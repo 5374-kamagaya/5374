@@ -124,6 +124,10 @@ a,a:visited,a:hover,a:active{
 	color: #FF0000;
 	text-decoration: underline;
 }
+#caption a{
+	color: #FF0000;
+	text-decoration: underline;
+}
 #accordion3 #desc a {
 	color: #FF0000;
 	text-decoration: underline;
